@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main .box {
+  background-color: rgb(21, 33, 54);
+  height: 550px;
+  width: 350px;
+}
+.main .box header {
+  padding: 10px 10px;
+}
+.main .box header .icon {
+  font-family: "Pacifico", cursive !important;
+  color: #ea629d;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.main .box .menu {
+  display: flex;
+  justify-content: "center";
+  align-items: center;
+  padding: 20px;
+  height: 75%;
+  flex-wrap: wrap;
+}
+.main .box .menu .text {
+  text-align: center;
+}
+.main .box .menu .text .title {
+  color: white;
+  font-size: 35px;
+}
+.main .box .menu .text .besh {
+  font-family: "Pacifico", cursive !important;
+  color: #ea629d;
+  letter-spacing: 3px;
+  font-size: 35px;
+}
+.main .box .menu .text .lesson {
+  color: white;
+  margin-top: 10px;
+}
+.main .box .menu .text .click {
+  padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: #ea629d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.main .box .menu .text .credit {
+  color: white;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.main .box .about {
+  height: 300px;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.main .box .about .about-us {
+  font-family: "Pacifico", cursive !important;
+  color: #ea629d;
+  text-align: center;
+}
+.main .box .about > p {
+  color: white;
+}
+.main .box .about .buttons {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main .box .about .buttons > button {
+  width: 150px;
+  background-color: #ea629d;
+  color: white;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+}
+.main .box .customize {
+  margin-top: 50px;
+  padding-inline: 10px;
+}
+.main .box .customize .customi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main .box .customize .customi .sticker {
+  margin-inline-start: 20px;
+}
+.main .box .customize .customi .sticker > label {
+  color: white;
+  font-size: 10px;
+}
+.main .box .customize .customi .gender > label {
+  color: white;
+  font-size: 10px;
+}
+.main .box .customize .typing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+}
+.main .box .customize .typing > input {
+  background-color: #cccccc;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  caret-color: #ea629d;
+  color: deeppink;
+}
+.main .box .customize .typing > input::placeholder {
+  color: gray;
+}
+.main .box .customize .typing > button {
+  width: 130px;
+  margin-inline: auto;
+  margin-top: 5px;
+  background-color: #ea629d;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.main .text-field {
+  margin-top: 10px;
+}
+.main .text-field .text-area {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+  overflow-y: auto;
+  color: white;
+}
+.main .text-field .buttons-2 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.main .text-field .buttons-2 > button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: pink;
+  font-weight: 700;
+  border: none;
+}
+
+/*# sourceMappingURL=index.css.map */
