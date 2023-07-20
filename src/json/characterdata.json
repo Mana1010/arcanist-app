@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Jinx",
+        "id": 1,
+        "gender": "Female",
+        "isAlive": true,
+        "villain": true,
+        "region": "Zaun"
+    },
+    {
+        "name": "Vi",
+        "id": 2,
+        "gender": "Female",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Vander",
+        "id": 3,
+        "gender": "Female",
+        "isAlive": false,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Claggor",
+        "id": 4,
+        "gender": "Female",
+        "isAlive": false,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Mylo",
+        "id": 5,
+        "gender": "Male",
+        "isAlive": false,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Caithlyn",
+        "id": 6,
+        "gender": "Female",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Silco",
+        "id": 7,
+        "gender": "Male",
+        "isAlive": false,
+        "villain": false,
+        "region": "Zaun"
+    },
+    {
+        "name": "Jayce",
+        "id": 8,
+        "gender": "Male",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Viktor",
+        "id": 9,
+        "gender": "Male",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Ekko",
+        "id": 11,
+        "gender": "Male",
+        "isAlive": true,
+        "villain": false,
+        "region": "Zaun"
+    },
+    {
+        "name": "Heimerdinger",
+        "id": 12,
+        "gender": "Male",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    },
+    {
+        "name": "Sevika",
+        "id": 14,
+        "gender": "Female",
+        "isAlive": true,
+        "villain": false,
+        "region": "Zaun"
+    },
+    {
+        "name": "Singed",
+        "id": 15,
+        "gender": "Male",
+        "isAlive": true,
+        "villain": false,
+        "region": "Zaun"
+    },
+    {
+        "name": "Mel",
+        "id": 16,
+        "gender": "Female",
+        "isAlive": true,
+        "villain": false,
+        "region": "Piltover"
+    }
+]
